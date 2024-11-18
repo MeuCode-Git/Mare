@@ -3,7 +3,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabela de Marés - Porto de Itaqui</title>
- 
 </head>
 <style>
 /* Define as regras para diferentes tamanhos de tela */
@@ -18,17 +17,14 @@
 @media only screen and (max-width: 480px) {
   /* Regras para telas com largura máxima de 480px */
   /* Exemplo: ajuste da fonte e da margem */
-  
 }
 
 /* Adicione mais regras para diferentes tamanhos de tela, se necessário */
-  /* styles.css */
-
 body {
     font-size: 14px;
     margin: 10px;
     background-color: blue;
-  }
+}
 
 table {
   border-collapse: collapse;
@@ -57,354 +53,437 @@ th, td {
   color: #FFC080;
 }
 
+/* Fase lunar section */
+.fase-lunar {
+  background-color: #4C5154;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
 
+.fase-lunar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.fase-lunar li {
+  padding: 5px 0;
+}
 </style>
 <body>
+  <div class="fase-lunar">
+    <h2>Fases da Lua em Novembro 2024</h2>
+    <ul>
+      <li><strong>01/11:</strong> Lua Nova - 0% de luminosidade</li>
+      <li><strong>09/11:</strong> Quarto Crescente - 48% de luminosidade</li>
+      <li><strong>15/11:</strong> Lua Cheia - 100% de luminosidade</li>
+      <li><strong>22/11:</strong> Quarto Minguante - 55% de luminosidade</li>
+    </ul>
+    <h3>Explicação das Fases Lunares</h3>
+    <ul>
+      <li><strong>Lua Nova:</strong> A Lua está entre a Terra e o Sol, com 0% de luminosidade.</li>
+      <li><strong>Quarto Crescente:</strong> A Lua está com 50% de luminosidade, com a parte iluminada à direita.</li>
+      <li><strong>Lua Cheia:</strong> A Lua está totalmente iluminada, com 100% de luminosidade.</li>
+      <li><strong>Quarto Minguante:</strong> A Lua começa a perder luminosidade após a Lua Cheia, com 50% de luminosidade à esquerda.</li>
+    </ul>
+  </div>
+
   <table>
     <caption>Tabela de Marés - Porto de Itaqui</caption>
-    <thead>
+     <thead>
       <tr>
         <th>Data</th>
         <th>Hora</th>
         <th>Maré</th>
         <th>Altura (m)</th>
+        <th>Fase da Lua</th>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td>18/11</td>
+        <td>02:30</td>
+        <td class="min">Baixa</td>
+        <td>0.0</td>
+        <td class="fase-lua">Lua Cheia (94%)</td>
+      </tr>
+      <tr>
+        <td>18/11</td>
+        <td>08:43</td>
+        <td class="max">Alta</td>
+        <td>6.2</td>
+        <td class="fase-lua">Lua Cheia (94%)</td>
+      </tr>
+      <tr>
+        <td>18/11</td>
+        <td>14:49</td>
+        <td class="min">Baixa</td>
+        <td>0.6</td>
+        <td class="fase-lua">Lua Cheia (94%)</td>
+      </tr>
+      <tr>
+        <td>18/11</td>
+        <td>20:56</td>
+        <td class="max">Alta</td>
+        <td>6.3</td>
+        <td class="fase-lua">Lua Cheia (94%)</td>
+      </tr>
+
+      <tr>
+        <td>19/11</td>
+        <td>03:09</td>
+        <td class="min">Baixa</td>
+        <td>0.3</td>
+        <td class="fase-lua">Lua Cheia (92%)</td>
+      </tr>
+      <tr>
+        <td>19/11</td>
+        <td>09:21</td>
+        <td class="max">Alta</td>
+        <td>5.9</td>
+        <td class="fase-lua">Lua Cheia (92%)</td>
+      </tr>
+      <tr>
+        <td>19/11</td>
+        <td>15:26</td>
+        <td class="min">Baixa</td>
+        <td>0.9</td>
+        <td class="fase-lua">Lua Cheia (92%)</td>
+      </tr>
+      <tr>
+        <td>19/11</td>
+        <td>21:34</td>
+        <td class="max">Alta</td>
+        <td>6.0</td>
+        <td class="fase-lua">Lua Cheia (92%)</td>
+      </tr>
+
+      <tr>
+        <td>20/11</td>
+        <td>03:53</td>
+        <td class="min">Baixa</td>
+        <td>0.6</td>
+        <td class="fase-lua">Lua Cheia (90%)</td>
+      </tr>
+      <tr>
+        <td>20/11</td>
+        <td>10:02</td>
+        <td class="max">Alta</td>
+        <td>5.6</td>
+        <td class="fase-lua">Lua Cheia (90%)</td>
+      </tr>
+      <tr>
+        <td>20/11</td>
+        <td>16:06</td>
+        <td class="min">Baixa</td>
+        <td>1.2</td>
+        <td class="fase-lua">Lua Cheia (90%)</td>
+      </tr>
+      <tr>
+        <td>20/11</td>
+        <td>22:11</td>
+        <td class="max">Alta</td>
+        <td>5.7</td>
+        <td class="fase-lua">Lua Cheia (90%)</td>
+      </tr>
+
+      <tr>
+        <td>21/11</td>
+        <td>04:34</td>
+        <td class="min">Baixa</td>
+        <td>1.0</td>
+        <td class="fase-lua">Lua Cheia (85%)</td>
+      </tr>
+      <tr>
+        <td>21/11</td>
+        <td>10:43</td>
+        <td class="max">Alta</td>
+        <td>5.3</td>
+        <td class="fase-lua">Lua Cheia (85%)</td>
+      </tr>
+      <tr>
+        <td>21/11</td>
+        <td>16:51</td>
+        <td class="min">Baixa</td>
+        <td>1.5</td>
+        <td class="fase-lua">Lua cheia (85%)</td>
+      </tr>
+      <tr>
+        <td>21/11</td>
+        <td>22:56</td>
+        <td class="max">Alta</td>
+        <td>5.4</td>
+        <td class="fase-lua">Lua cheia (85%)</td>
+      </tr>
+
+      <tr>
+        <td>22/11</td>
+        <td>05:15</td>
+        <td class="min">Baixa</td>
+        <td>1.4</td>
+<td class="fase-lua">Lua minguante (55%)</td>
+      </tr>
+      <tr>
+        <td>22/11</td>
+        <td>11:30</td>
+        <td class="max">Alta</td>
+        <td>5.1</td>
+<td class="fase-lua">Lua minguante (55%)</td>
+      </tr>
+      <tr>
+        <td>22/11</td>
+        <td>17:36</td>
+        <td class="min">Baixa</td>
+        <td>1.8</td>
+<td class="fase-lua">Lua minguante (55%)</td>
+      </tr>
+      <tr>
+        <td>22/11</td>
+        <td>23:47</td>
+        <td class="max">Alta</td>
+        <td>5.1</td>
+<td class="fase-lua">Lua minguante (55%)</td>
+      </tr>
+
+      <tr>
+        <td>23/11</td>
+        <td>06:08</td>
+        <td class="min">Baixa</td>
+        <td>1.7</td>
+<td class="fase-lua">Lua minguante (53%)</td>
+      </tr>
+      <tr>
+        <td>23/11</td>
+        <td>12:26</td>
+        <td class="max">Alta</td>
+        <td>4.9</td>
+<td class="fase-lua">Lua minguante (53%)</td>
+      </tr>
+      <tr>
+        <td>23/11</td>
+        <td>18:34</td>
+        <td class="min">Baixa</td>
+        <td>2.1</td>
+<td class="fase-lua">Lua minguante (53%)</td>
+      </tr>
+
 <tr>
-  <td>18/11</td>
-  <td>02:30</td>
-  <td class="min">Baixa</td>
-  <td>0.0</td>
+    <td>24/11</td>
+    <td>00:51</td>
+    <td class="max">Alta</td>
+    <td>4.9</td>
+    <td class="fase-lua">Lua minguante (51%)</td>
 </tr>
 <tr>
-  <td>18/11</td>
-  <td>08:43</td>
-  <td class="max">Alta</td>
-  <td>6.2</td>
+    <td>24/11</td>
+    <td>07:11</td>
+    <td class="min">Baixa</td>
+    <td>1.9</td>
+    <td class="fase-lua">Lua minguante (51%)</td>
 </tr>
 <tr>
-  <td>18/11</td>
-  <td>14:49</td>
-  <td class="min">Baixa</td>
-  <td>0.6</td>
+    <td>24/11</td>
+    <td>13:30</td>
+    <td class="max">Alta</td>
+    <td>4.8</td>
+    <td class="fase-lua">Lua minguante (51%)</td>
 </tr>
 <tr>
-  <td>18/11</td>
-  <td>20:56</td>
-  <td class="max">Alta</td>
-  <td>6.3</td>
+    <td>24/11</td>
+    <td>19:45</td>
+    <td class="min">Baixa</td>
+    <td>2.2</td>
+    <td class="fase-lua">Lua minguante (51%)</td>
 </tr>
 
 <tr>
-  <td>19/11</td>
-  <td>03:09</td>
-  <td class="min">Baixa</td>
-  <td>0.3</td>
+    <td>25/11</td>
+    <td>02:00</td>
+    <td class="max">Alta</td>
+    <td>4.8</td>
+    <td class="fase-lua">Lua minguante (49%)</td>
 </tr>
 <tr>
-  <td>19/11</td>
-  <td>09:21</td>
-  <td class="max">Alta</td>
-  <td>5.9</td>
+    <td>25/11</td>
+    <td>08:24</td>
+    <td class="min">Baixa</td>
+    <td>2.0</td>
+    <td class="fase-lua">Lua minguante (49%)</td>
 </tr>
 <tr>
-  <td>19/11</td>
-  <td>15:26</td>
-  <td class="min">Baixa</td>
-  <td>0.9</td>
+    <td>25/11</td>
+    <td>14:36</td>
+    <td class="max">Alta</td>
+    <td>4.8</td>
+    <td class="fase-lua">Lua minguante (49%)</td>
 </tr>
 <tr>
-  <td>19/11</td>
-  <td>21:34</td>
-  <td class="max">Alta</td>
-  <td>6.0</td>
-</tr>
-
-<tr>
-  <td>20/11</td>
-  <td>03:53</td>
-  <td class="min">Baixa</td>
-  <td>0.6</td>
-</tr>
-<tr>
-  <td>20/11</td>
-  <td>10:02</td>
-  <td class="max">Alta</td>
-  <td>5.6</td>
-</tr>
-<tr>
-  <td>20/11</td>
-  <td>16:06</td>
-  <td class="min">Baixa</td>
-  <td>1.2</td>
-</tr>
-<tr>
-  <td>20/11</td>
-  <td>22:11</td>
-  <td class="max">Alta</td>
-  <td>5.7</td>
+    <td>25/11</td>
+    <td>21:00</td>
+    <td class="min">Baixa</td>
+    <td>2.0</td>
+    <td class="fase-lua">Lua minguante (49%)</td>
 </tr>
 
 <tr>
-  <td>21/11</td>
-  <td>04:34</td>
-  <td class="min">Baixa</td>
-  <td>1.0</td>
+    <td>26/11</td>
+    <td>03:06</td>
+    <td class="max">Alta</td>
+    <td>4.9</td>
+    <td class="fase-lua">Lua minguante (47%)</td>
 </tr>
 <tr>
-  <td>21/11</td>
-  <td>10:43</td>
-  <td class="max">Alta</td>
-  <td>5.3</td>
+    <td>26/11</td>
+    <td>09:34</td>
+    <td class="min">Baixa</td>
+    <td>1.9</td>
+    <td class="fase-lua">Lua minguante (47%)</td>
 </tr>
 <tr>
-  <td>21/11</td>
-  <td>16:51</td>
-  <td class="min">Baixa</td>
-  <td>1.5</td>
+    <td>26/11</td>
+    <td>15:36</td>
+    <td class="max">Alta</td>
+    <td>5.0</td>
+    <td class="fase-lua">Lua minguante (47%)</td>
 </tr>
 <tr>
-  <td>21/11</td>
-  <td>22:56</td>
-  <td class="max">Alta</td>
-  <td>5.4</td>
-</tr>
-
-<tr>
-  <td>22/11</td>
-  <td>05:15</td>
-  <td class="min">Baixa</td>
-  <td>1.4</td>
-</tr>
-<tr>
-  <td>22/11</td>
-  <td>11:30</td>
-  <td class="max">Alta</td>
-  <td>5.1</td>
-</tr>
-<tr>
-  <td>22/11</td>
-  <td>17:36</td>
-  <td class="min">Baixa</td>
-  <td>1.8</td>
-</tr>
-<tr>
-  <td>22/11</td>
-  <td>23:47</td>
-  <td class="max">Alta</td>
-  <td>5.1</td>
+    <td>26/11</td>
+    <td>22:02</td>
+    <td class="min">Baixa</td>
+    <td>1.8</td>
+    <td class="fase-lua">Lua minguante (47%)</td>
 </tr>
 
 <tr>
-  <td>23/11</td>
-  <td>06:08</td>
-  <td class="min">Baixa</td>
-  <td>1.7</td>
+    <td>27/11</td>
+    <td>04:08</td>
+    <td class="max">Alta</td>
+    <td>5.1</td>
+    <td class="fase-lua">Lua minguante (45%)</td>
 </tr>
 <tr>
-  <td>23/11</td>
-  <td>12:26</td>
-  <td class="max">Alta</td>
-  <td>4.9</td>
+    <td>27/11</td>
+    <td>10:26</td>
+    <td class="min">Baixa</td>
+    <td>1.7</td>
+    <td class="fase-lua">Lua minguante (45%)</td>
 </tr>
 <tr>
-  <td>23/11</td>
-  <td>18:34</td>
-  <td class="min">Baixa</td>
-  <td>2.1</td>
-</tr>
-
-<tr>
-  <td>24/11</td>
-  <td>00:51</td>
-  <td class="max">Alta</td>
-  <td>4.9</td>
+    <td>27/11</td>
+    <td>16:28</td>
+    <td class="max">Alta</td>
+    <td>5.2</td>
+    <td class="fase-lua">Lua minguante (45%)</td>
 </tr>
 <tr>
-  <td>24/11</td>
-  <td>07:11</td>
-  <td class="min">Baixa</td>
-  <td>1.9</td>
-</tr>
-<tr>
-  <td>24/11</td>
-  <td>13:30</td>
-  <td class="max">Alta</td>
-  <td>4.8</td>
-</tr>
-<tr>
-  <td>24/11</td>
-  <td>19:45</td>
-  <td class="min">Baixa</td>
-  <td>2.2</td>
+    <td>27/11</td>
+    <td>22:53</td>
+    <td class="min">Baixa</td>
+    <td>1.5</td>
+    <td class="fase-lua">Lua minguante (45%)</td>
 </tr>
 
 <tr>
-  <td>25/11</td>
-  <td>02:00</td>
-  <td class="max">Alta</td>
-  <td>4.8</td>
+    <td>28/11</td>
+    <td>05:02</td>
+    <td class="max">Alta</td>
+    <td>5.2</td>
+    <td class="fase-lua">Lua minguante (43%)</td>
 </tr>
 <tr>
-  <td>25/11</td>
-  <td>08:24</td>
-  <td class="min">Baixa</td>
-  <td>2.0</td>
+    <td>28/11</td>
+    <td>11:09</td>
+    <td class="min">Baixa</td>
+    <td>1.5</td>
+    <td class="fase-lua">Lua minguante (43%)</td>
 </tr>
 <tr>
-  <td>25/11</td>
-  <td>14:36</td>
-  <td class="max">Alta</td>
-  <td>4.8</td>
+    <td>28/11</td>
+    <td>17:15</td>
+    <td class="max">Alta</td>
+    <td>5.4</td>
+    <td class="fase-lua">Lua minguante (43%)</td>
 </tr>
 <tr>
-  <td>25/11</td>
-  <td>21:00</td>
-  <td class="min">Baixa</td>
-  <td>2.0</td>
-</tr>
-
-<tr>
-  <td>26/11</td>
-  <td>03:06</td>
-  <td class="max">Alta</td>
-  <td>4.9</td>
-</tr>
-<tr>
-  <td>26/11</td>
-  <td>09:34</td>
-  <td class="min">Baixa</td>
-  <td>1.9</td>
-</tr>
-<tr>
-  <td>26/11</td>
-  <td>15:36</td>
-  <td class="max">Alta</td>
-  <td>5.0</td>
-</tr>
-<tr>
-  <td>26/11</td>
-  <td>22:02</td>
-  <td class="min">Baixa</td>
-  <td>1.8</td>
+    <td>28/11</td>
+    <td>23:34</td>
+    <td class="min">Baixa</td>
+    <td>1.2</td>
+    <td class="fase-lua">Lua minguante (43%)</td>
 </tr>
 
 <tr>
-  <td>27/11</td>
-  <td>04:08</td>
-  <td class="max">Alta</td>
-  <td>5.1</td>
+    <td>29/11</td>
+    <td>05:47</td>
+    <td class="max">Alta</td>
+    <td>5.4</td>
+    <td class="fase-lua">Lua minguante (41%)</td>
 </tr>
 <tr>
-  <td>27/11</td>
-  <td>10:26</td>
-  <td class="min">Baixa</td>
-  <td>1.7</td>
+    <td>29/11</td>
+    <td>11:49</td>
+    <td class="min">Baixa</td>
+    <td>1.4</td>
+    <td class="fase-lua">Lua minguante (41%)</td>
 </tr>
 <tr>
-  <td>27/11</td>
-  <td>16:28</td>
-  <td class="max">Alta</td>
-  <td>5.2</td>
-</tr>
-<tr>
-  <td>27/11</td>
-  <td>22:53</td>
-  <td class="min">Baixa</td>
-  <td>1.5</td>
+    <td>29/11</td>
+    <td>17:56</td>
+    <td class="max">Alta</td>
+    <td>5.6</td>
+    <td class="fase-lua">Lua minguante (41%)</td>
 </tr>
 
 <tr>
-  <td>28/11</td>
-  <td>05:02</td>
-  <td class="max">Alta</td>
-  <td>5.2</td>
+    <td>30/11</td>
+    <td>00:08</td>
+    <td class="min">Baixa</td>
+    <td>1.0</td>
+    <td class="fase-lua">Lua minguante (40%)</td>
 </tr>
 <tr>
-  <td>28/11</td>
-  <td>11:09</td>
-  <td class="min">Baixa</td>
-  <td>1.5</td>
+    <td>30/11</td>
+    <td>06:24</td>
+    <td class="max">Alta</td>
+    <td>5.5</td>
+    <td class="fase-lua">Lua minguante (40%)</td>
 </tr>
 <tr>
-  <td>28/11</td>
-  <td>17:15</td>
-  <td class="max">Alta</td>
-  <td>5.4</td>
+    <td>30/11</td>
+    <td>12:24</td>
+    <td class="min">Baixa</td>
+    <td>1.3</td>
+    <td class="fase-lua">Lua minguante (40%)</td>
 </tr>
 <tr>
-  <td>28/11</td>
-  <td>23:34</td>
-  <td class="min">Baixa</td>
-  <td>1.2</td>
-</tr>
-
-<tr>
-  <td>29/11</td>
-  <td>05:47</td>
-  <td class="max">Alta</td>
-  <td>5.4</td>
-</tr>
-<tr>
-  <td>29/11</td>
-  <td>11:49</td>
-  <td class="min">Baixa</td>
-  <td>1.4</td>
-</tr>
-<tr>
-  <td>29/11</td>
-  <td>17:56</td>
-  <td class="max">Alta</td>
-  <td>5.6</td>
-</tr>
-
-<tr>
-  <td>30/11</td>
-  <td>00:08</td>
-  <td class="min">Baixa</td>
-  <td>1.0</td>
-</tr>
-<tr>
-  <td>30/11</td>
-  <td>06:24</td>
-  <td class="max">Alta</td>
-  <td>5.5</td>
-</tr>
-<tr>
-  <td>30/11</td>
-  <td>12:24</td>
-  <td class="min">Baixa</td>
-  <td>1.3</td>
-</tr>
-<tr>
-  <td>30/11</td>
-  <td>18:32</td>
-  <td class="max">Alta</td>
-  <td>5.7</td>
+    <td>30/11</td>
+    <td>18:32</td>
+    <td class="max">Alta</td>
+    <td>5.7</td>
+    <td class="fase-lua">Lua minguante (40%)</td>
 </tr>
       </tbody>
   </table>
+
   <script>
     // Supondo que os dados estejam em um array de objetos
-const dadosMares = [
-  // ... seus dados aqui ...
-];
+    const dadosMares = [
+      // ... seus dados aqui ...
+    ];
 
-const tabela = document.querySelector('table tbody');
+    const tabela = document.querySelector('table tbody');
 
-dadosMares.forEach(mare => {
-  const novaLinha = document.createElement('tr');
-  novaLinha.innerHTML = `
-    <td>${mare.data}</td>
-    <td>${mare.hora}</td>
-    <td>${mare.mare}</td>
-    <td class="${mare.altura === maxAltura ? 'max' : mare.altura === minAltura ? 'min' : ''}">${mare.altura}</td>
-  `;
-  tabela.appendChild(novaLinha);
-});
-
-
+    dadosMares.forEach(mare => {
+      const novaLinha = document.createElement('tr');
+      novaLinha.innerHTML = `
+        <td>${mare.data}</td>
+        <td>${mare.hora}</td>
+        <td>${mare.mare}</td>
+        <td class="${mare.altura === maxAltura ? 'max' : mare.altura === minAltura ? 'min' : ''}">${mare.altura}</td>
+      `;
+      tabela.appendChild(novaLinha);
+    });
   </script>
 </body>
 </html>
