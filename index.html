@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabela de Marés - Porto de Itaqui</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <style>
+/* Define as regras para diferentes tamanhos de tela */
+@media only screen and (max-width: 768px) {
+  /* Regras para telas com largura máxima de 768px */
+  /* Exemplo: ajuste da largura da coluna */
+  .coluna {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Regras para telas com largura máxima de 480px */
+  /* Exemplo: ajuste da fonte e da margem */
+  body {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+
+/* Adicione mais regras para diferentes tamanhos de tela, se necessário */
   /* styles.css */
 table {
   border-collapse: collapse;
