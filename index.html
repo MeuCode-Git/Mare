@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabela de Marés - Porto de Itaqui</title>
-  <link rel="stylesheet" href="styles.css">
+ 
 </head>
 <style>
 /* Define as regras para diferentes tamanhos de tela */
@@ -18,37 +18,43 @@
 @media only screen and (max-width: 480px) {
   /* Regras para telas com largura máxima de 480px */
   /* Exemplo: ajuste da fonte e da margem */
-  body {
-    font-size: 14px;
-    margin: 10px;
-  }
+  
 }
 
 /* Adicione mais regras para diferentes tamanhos de tela, se necessário */
   /* styles.css */
+
+body {
+    font-size: 14px;
+    margin: 10px;
+    background-color: blue;
+  }
+
 table {
   border-collapse: collapse;
   width: 100%;
+}
+caption {
+  background-color: black;
+  color: white;
 }
 
 th, td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
-}
-
-th {
-  background-color: #f2f2f2;
+  background-color: #4C5154;
+  color: white;
 }
 
 .max {
   font-weight: bold;
-  color: green;
+  color: #8BC34A;
 }
 
 .min {
   font-weight: bold;
-  color: red;
+  color: #FFC080;
 }
 </style>
 <body>
@@ -66,163 +72,163 @@ th {
 <tr>
   <td>17/11</td>
   <td>04:32</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.4</td>
 </tr>
 <tr>
   <td>17/11</td>
   <td>10:19</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.5</td>
 </tr>
 <tr>
   <td>17/11</td>
   <td>16:02</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.4</td>
 </tr>
 <tr>
   <td>17/11</td>
   <td>22:28</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.4</td>
 </tr>
 <tr>
   <td>18/11</td>
   <td>05:15</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.5</td>
 </tr>
 <tr>
   <td>18/11</td>
   <td>11:02</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.3</td>
 </tr>
 <tr>
   <td>18/11</td>
   <td>16:41</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.6</td>
 </tr>
 <tr>
   <td>18/11</td>
   <td>23:21</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.3</td>
 </tr>
 <tr>
   <td>19/11</td>
   <td>06:02</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.6</td>
 </tr>
 <tr>
   <td>19/11</td>
   <td>11:51</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.1</td>
 </tr>
 <tr>
   <td>19/11</td>
   <td>17:23</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.7</td>
 </tr>
 <tr>
   <td>20/11</td>
   <td>00:16</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.1</td>
 </tr>
 <tr>
   <td>20/11</td>
   <td>07:01</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.7</td>
 </tr>
 <tr>
   <td>20/11</td>
   <td>12:48</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>4.9</td>
 </tr>
 <tr>
   <td>20/11</td>
   <td>18:19</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.8</td>
 </tr>
 <tr>
   <td>21/11</td>
   <td>01:18</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.0</td>
 </tr>
 <tr>
   <td>21/11</td>
   <td>08:12</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.8</td>
 </tr>
 <tr>
   <td>21/11</td>
   <td>14:00</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>4.9</td>
 </tr>
 <tr>
   <td>21/11</td>
   <td>19:34</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.8</td>
 </tr>
 <tr>
   <td>22/11</td>
   <td>02:35</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.0</td>
 </tr>
 <tr>
   <td>22/11</td>
   <td>09:34</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.7</td>
 </tr>
 <tr>
   <td>22/11</td>
   <td>15:26</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.1</td>
 </tr>
 <tr>
   <td>22/11</td>
   <td>20:53</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.7</td>
 </tr>
 <tr>
   <td>23/11</td>
   <td>03:55</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.1</td>
 </tr>
 <tr>
   <td>23/11</td>
   <td>10:53</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.5</td>
 </tr>
 <tr>
   <td>23/11</td>
   <td>16:47</td>
-  <td>Alta</td>
+  <td class="max">Alta</td>
   <td>5.2</td>
 </tr>
 <tr>
   <td>23/11</td>
   <td>22:05</td>
-  <td>Baixa</td>
+  <td class="min">Baixa</td>
   <td>1.6</td>
 </tr>
       </tbody>
@@ -245,6 +251,8 @@ dadosMares.forEach(mare => {
   `;
   tabela.appendChild(novaLinha);
 });
+
+
   </script>
 </body>
 </html>
