@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabela de Marés - Porto de Itaqui</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* styles.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.max {
+  font-weight: bold;
+  color: green;
+}
+
+.min {
+  font-weight: bold;
+  color: red;
+}
+</style>
+<body>
+  <table>
+    <caption>Tabela de Marés - Porto de Itaqui</caption>
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Hora</th>
+        <th>Maré</th>
+        <th>Altura (m)</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td>17/11</td>
+  <td>04:32</td>
+  <td>Baixa</td>
+  <td>1.4</td>
+</tr>
+<tr>
+  <td>17/11</td>
+  <td>10:19</td>
+  <td>Alta</td>
+  <td>5.5</td>
+</tr>
+<tr>
+  <td>17/11</td>
+  <td>16:02</td>
+  <td>Baixa</td>
+  <td>1.4</td>
+</tr>
+<tr>
+  <td>17/11</td>
+  <td>22:28</td>
+  <td>Alta</td>
+  <td>5.4</td>
+</tr>
+<tr>
+  <td>18/11</td>
+  <td>05:15</td>
+  <td>Baixa</td>
+  <td>1.5</td>
+</tr>
+<tr>
+  <td>18/11</td>
+  <td>11:02</td>
+  <td>Alta</td>
+  <td>5.3</td>
+</tr>
+<tr>
+  <td>18/11</td>
+  <td>16:41</td>
+  <td>Baixa</td>
+  <td>1.6</td>
+</tr>
+<tr>
+  <td>18/11</td>
+  <td>23:21</td>
+  <td>Alta</td>
+  <td>5.3</td>
+</tr>
+<tr>
+  <td>19/11</td>
+  <td>06:02</td>
+  <td>Baixa</td>
+  <td>1.6</td>
+</tr>
+<tr>
+  <td>19/11</td>
+  <td>11:51</td>
+  <td>Alta</td>
+  <td>5.1</td>
+</tr>
+<tr>
+  <td>19/11</td>
+  <td>17:23</td>
+  <td>Baixa</td>
+  <td>1.7</td>
+</tr>
+<tr>
+  <td>20/11</td>
+  <td>00:16</td>
+  <td>Alta</td>
+  <td>5.1</td>
+</tr>
+<tr>
+  <td>20/11</td>
+  <td>07:01</td>
+  <td>Baixa</td>
+  <td>1.7</td>
+</tr>
+<tr>
+  <td>20/11</td>
+  <td>12:48</td>
+  <td>Alta</td>
+  <td>4.9</td>
+</tr>
+<tr>
+  <td>20/11</td>
+  <td>18:19</td>
+  <td>Baixa</td>
+  <td>1.8</td>
+</tr>
+<tr>
+  <td>21/11</td>
+  <td>01:18</td>
+  <td>Alta</td>
+  <td>5.0</td>
+</tr>
+<tr>
+  <td>21/11</td>
+  <td>08:12</td>
+  <td>Baixa</td>
+  <td>1.8</td>
+</tr>
+<tr>
+  <td>21/11</td>
+  <td>14:00</td>
+  <td>Alta</td>
+  <td>4.9</td>
+</tr>
+<tr>
+  <td>21/11</td>
+  <td>19:34</td>
+  <td>Baixa</td>
+  <td>1.8</td>
+</tr>
+<tr>
+  <td>22/11</td>
+  <td>02:35</td>
+  <td>Alta</td>
+  <td>5.0</td>
+</tr>
+<tr>
+  <td>22/11</td>
+  <td>09:34</td>
+  <td>Baixa</td>
+  <td>1.7</td>
+</tr>
+<tr>
+  <td>22/11</td>
+  <td>15:26</td>
+  <td>Alta</td>
+  <td>5.1</td>
+</tr>
+<tr>
+  <td>22/11</td>
+  <td>20:53</td>
+  <td>Baixa</td>
+  <td>1.7</td>
+</tr>
+<tr>
+  <td>23/11</td>
+  <td>03:55</td>
+  <td>Alta</td>
+  <td>5.1</td>
+</tr>
+<tr>
+  <td>23/11</td>
+  <td>10:53</td>
+  <td>Baixa</td>
+  <td>1.5</td>
+</tr>
+<tr>
+  <td>23/11</td>
+  <td>16:47</td>
+  <td>Alta</td>
+  <td>5.2</td>
+</tr>
+<tr>
+  <td>23/11</td>
+  <td>22:05</td>
+  <td>Baixa</td>
+  <td>1.6</td>
+</tr>
+      </tbody>
+  </table>
+  <script>
+    // Supondo que os dados estejam em um array de objetos
+const dadosMares = [
+  // ... seus dados aqui ...
+];
+
+const tabela = document.querySelector('table tbody');
+
+dadosMares.forEach(mare => {
+  const novaLinha = document.createElement('tr');
+  novaLinha.innerHTML = `
+    <td>${mare.data}</td>
+    <td>${mare.hora}</td>
+    <td>${mare.mare}</td>
+    <td class="${mare.altura === maxAltura ? 'max' : mare.altura === minAltura ? 'min' : ''}">${mare.altura}</td>
+  `;
+  tabela.appendChild(novaLinha);
+});
+  </script>
+</body>
+</html>
